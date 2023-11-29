@@ -19,4 +19,4 @@
 3. Open terminal in repository
 4. Run **(takes long time)** `docker build -t my-spark-img .`
 5. Run **(takes _even longer_ time)** `docker run -v  ${PWD}\data:/app/data my-spark-img `
-6. Write queries for your business questions in `query.py` 
+6. Write queries for your business questions in `query.py`, see `query.template.py` for example
